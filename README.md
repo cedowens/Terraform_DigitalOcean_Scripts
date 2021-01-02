@@ -17,6 +17,7 @@ FYI: Each instance stood up is an Ubuntu 20 DigitalOcean instance.
 ## Instructions
 
 > chmod +x *.sh
+
 > ./[name of bash script you want to run]
 
 ### Info on the types of scripts included
