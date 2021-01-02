@@ -9,4 +9,11 @@ Bash and terraform scripts to automate standing up C2 infra with firewall settin
 
 ### Prerequisites
 
-On macOS, homebrew must be installed 
+- homebrew (macOS)
+
+- curl
+
+- A DigitalOcean API key
+
+- The ssh key you use to ssh into DigitalOcean droplets
+
