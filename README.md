@@ -47,7 +47,19 @@ Terraform will install the following in the DO droplet:
 
 - my C2 Cradle tool (https://github.com/cedowens/C2_Cradle): This is a tool that includes docker images for various cross platform C2s and will stand up the C2 as a docker image. So you can use this tool to login and install a C2 of your choice (or you can install something else).
 
+Terraform first runs a plan and then apply, so you will need to enter "yes" when prompted to apply:
+
+![Image](tf2.png)
+
 **once done, you will see a message from terraform indicating succcess:**
+
+![Image](tf.png)
+
+You will also be able to see the newly created droplet and firewalls in the DO control panel:
+
+![Image](do1.png)
+
+![Image](do2.png)
 
 Then you can ssh into the droplet and run whatever C2 you choose. If you opt to use my C2 Cradle tool, then you can do the following:
 
@@ -87,7 +99,13 @@ Terraform will install the following in the DO droplet:
 
 - gophish (https://github.com/gophish/gophish)
 
+Terraform first runs a plan and then apply, so you will need to enter "yes" when prompted to apply:
+
+![Image](tf2.png)
+
 **once done, you will see a message from terraform indicating succcess:**
+
+![Image](tf.png)
 
 Then you can ssh into the droplet, cd into the gophish directory and do the following:
 
@@ -125,7 +143,13 @@ Terraform will install the following in the DO droplet:
 
 - EvilGinx2 (https://github.com/kgretzky/evilginx2)
 
+Terraform first runs a plan and then apply, so you will need to enter "yes" when prompted to apply:
+
+![Image](tf2.png)
+
 **once done, you will see a message from terraform indicating succcess:**
+
+![Image](tf.png)
 
 Then you can ssh into the droplet, cd into the evilginx2 directory and do the following:
 
