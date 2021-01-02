@@ -1,5 +1,5 @@
 resource "digitalocean_droplet" "myc2-1" {
-    image = "ubuntu-18-04-x64"
+    image = "ubuntu-20-04-x64"
     name = "myc2-1"
     region = "sfo2"
     size = "s-1vcpu-1gb"
