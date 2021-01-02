@@ -14,7 +14,7 @@ The scripts were built to be run on either Linux or macOS hosts. The scripts wil
 
 - curl
 
-- You will need to setup a DigitalOcean API key (can be done via the web admin console page)
+- You will need to setup a DigitalOcean API key (can be done via the web admin console page). Terraform uses your DO API key in order to interface with DO.
 
 - You will also need to set up an ssh key in DigitalOcean (which will be used by terraform to log into the droplet)
 
