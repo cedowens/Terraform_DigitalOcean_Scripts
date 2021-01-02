@@ -49,7 +49,15 @@ Terraform will install the following in the DO droplet:
 
 **once done, you will see a message from terraform indicating succcess:**
 
-Then you can ssh into the droplet and run whatever C2 you choose.
+Then you can ssh into the droplet and run whatever C2 you choose. If you opt to use my C2 Cradle tool, then you can do the following:
+
+> cd C2_Cradle
+
+> chmod +x run.sh
+
+> sudo ./run.sh
+
+Then pick the C2 server you want to use and the C2 cradle will install it in Docker
 
 --------------------------------
 
