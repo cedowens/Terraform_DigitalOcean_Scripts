@@ -163,9 +163,9 @@ Terraform first runs a plan and then apply, so you will need to enter "yes" when
 
 You will also be able to see the newly created droplet and firewall in the DO control panel:
 
-![Image](do4.png)
-
 ![Image](do5.png)
+
+![Image](do6.png)
 
 Then you can ssh into the droplet, cd into the evilginx2 directory and do the following:
 
