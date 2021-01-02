@@ -59,7 +59,7 @@ Terraform first runs a plan and then apply, so you will need to enter "yes" when
 
 ![Image](tf.png)
 
-You will also be able to see the newly created droplet and firewalls in the DO control panel:
+You will also be able to see the newly created droplet and firewall in the DO control panel:
 
 ![Image](do1.png)
 
@@ -111,6 +111,12 @@ Terraform first runs a plan and then apply, so you will need to enter "yes" when
 
 ![Image](tf.png)
 
+You will also be able to see the newly created droplet and firewall in the DO control panel:
+
+![Image](do3.png)
+
+![Image](do4.png)
+
 Then you can ssh into the droplet, cd into the gophish directory and do the following:
 
 - edit the config.json file and change the 127.0.0.1:3333 to 0.0.0.0:3333 (note: the firewall restricts access to port 3333 only to the IP you specify)
@@ -154,6 +160,12 @@ Terraform first runs a plan and then apply, so you will need to enter "yes" when
 **once done, you will see a message from terraform indicating succcess:**
 
 ![Image](tf.png)
+
+You will also be able to see the newly created droplet and firewall in the DO control panel:
+
+![Image](do4.png)
+
+![Image](do5.png)
 
 Then you can ssh into the droplet, cd into the evilginx2 directory and do the following:
 
