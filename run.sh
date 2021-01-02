@@ -38,7 +38,7 @@ read DOAPIKey
 export $DO_PAT=$DOAPIKey
 echo "=====>Enter the name of your Digital Ocean ssh key (can be found in your admin console panel or you can create one there if you haven't already)"
 read keyName
-echo "=====>Enter the FULL path (i.e., do not use ~ in path) to where the ssh private key is that you use to ssh into Digital Ocean"
+echo "=====>Enter the local path to the ssh private key that you use to ssh into Digital Ocean (ex: ~/.ssh/id_rsa)"
 read keyPath
 
 cd DO_new_ubuntu_droplet_with_firewall
