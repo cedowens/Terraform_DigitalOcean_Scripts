@@ -4,6 +4,10 @@ Bash and terraform scripts to automate standing up C2 infra with firewall settin
 
 FYI: Each instance stood up is an Ubuntu 20 DigitalOcean instance.
 
+The scripts were built to be run on either Linux or macOS hosts. The scripts will first check to see if you have installed terraform and if not, it will attempt to install it for you before proceeding.
+
+![Image](bash.png)
+
 ## Prerequisites
 
 - homebrew (macOS)
