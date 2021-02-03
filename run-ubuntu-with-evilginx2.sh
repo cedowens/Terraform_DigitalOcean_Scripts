@@ -33,7 +33,6 @@ echo "=====>Enter the src IP that you will login to your C2 infra from (i.e., te
 read adminIP
 echo "=====>Enter your Digital Ocean API key"
 read DOAPIKey
-export $DO_PAT=$DOAPIKey
 echo "=====>Enter the name of your Digital Ocean ssh key (can be found in your admin console panel or you can create one there if you haven't already)"
 read keyName
 echo "=====>Enter the local path to the ssh private key that you use to ssh into Digital Ocean (ex: ~/.ssh/id_rsa)"
