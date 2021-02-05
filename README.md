@@ -6,6 +6,8 @@ FYI: Each instance stood up is an Ubuntu 20 DigitalOcean instance.
 
 The scripts were built to be run on either Linux or macOS hosts. The scripts will first check to see if you have installed terraform and if not, it will attempt to install it for you before proceeding.
 
+**NOTE: It is recommended that after running any of the scripts below to stand up your infra that you then ssh into your host, create a local user with sudo, and run any tools as that user. Running tools as root is not recommended**
+
 ![Image](bash.png)
 
 ## Prerequisites
