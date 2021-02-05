@@ -67,7 +67,7 @@ You will also be able to see the newly created droplet and firewall in the DO co
 
 ![Image](do2.png)
 
-Then you can ssh into the droplet and run whatever C2 you choose. If you opt to use my C2 Cradle tool, then you can do the following:
+Then you can ssh into the droplet and run whatever C2 you choose (preferrably as a non-root user with sudo). If you opt to use my C2 Cradle tool, then you can do the following:
 
 > cd C2_Cradle
 
@@ -119,7 +119,7 @@ You will also be able to see the newly created droplet and firewall in the DO co
 
 ![Image](do4.png)
 
-Then you can ssh into the droplet, cd into the gophish directory and do the following:
+Then you can ssh into the droplet, switch to a non-root user with sudo, cd into the gophish directory and do the following:
 
 - edit the config.json file and change the 127.0.0.1:3333 to 0.0.0.0:3333 (note: the firewall restricts access to port 3333 only to the IP you specify)
 
@@ -169,7 +169,7 @@ You will also be able to see the newly created droplet and firewall in the DO co
 
 ![Image](do6.png)
 
-Then you can ssh into the droplet, cd into the evilginx2 directory and do the following:
+Then you can ssh into the droplet, switch to a non-root user with sudo, cd into the evilginx2 directory and do the following:
 
 > sudo ./evilginx2 -p phishlets/
 
